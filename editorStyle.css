@@ -1,0 +1,79 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    gap: .5px;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+.field-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+.cell{
+    border: 1px solid lightgrey;
+}
+.eraser img{
+    height: 7vh;
+    width: 5vw;
+    object-fit: contain;
+}
+.fill-tool img{
+    height: 7vh;
+    width: 5vw;
+    object-fit: contain;
+}
+.color-cell {
+    height: 8vh;
+    width: 5vw;
+}
+.red {
+    background-color: #ff0000;
+}
+.blue{
+    background-color: #001aff;
+}
+.green{
+    background-color: #00ff1a;
+}
+.yellow{
+    background-color: #fffb00;
+}
+.orange{
+    background-color: #ff5e00;
+}
+.light-blue{
+    background-color: #00ffd5;
+}
+.purple{
+    background-color: #c800ff;
+}
+.color-palette div{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.save-tool img{
+    height: 7vh;
+    width: 5vw;
+    object-fit: contain;
+}
+.back a img{
+    height: 7vh;
+    width: 5vw;
+    object-fit: contain;
+}
